@@ -129,6 +129,7 @@ Normalised : ∀ {i} → Coeff i + → Set
 infixl 6 _⊐_
 record Poly n where
   inductive
+  pattern
   constructor _⊐_
   field
     {i}  : ℕ
